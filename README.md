@@ -15,4 +15,5 @@ Projeto de um Fórum com enfase nos Fundamentos do DDD (Domain Driven Design).
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
 - No primeiro Caso de Uso:
--  Foi implementado as entidades e casos de uso utilizando Programação Orientada a Objetos (POO).
+- Foi implementado as entidades e casos de uso utilizando Programação Orientada a Objetos (POO).
+- Foi  implementada uma classe chamada Entity que servirá de base para as outras entidades da aplicação. As entidades serão criadas a partir do extends da classe Entity, herdando assim suas propriedades e métodos comuns.
