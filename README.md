@@ -15,6 +15,12 @@
  ____________________________________________________________________________________________________________________________________________________________________________________________________________________
  ____________________________________________________________________________________________________________________________________________________________________________________________________________________
  - No primeiro Caso de Uso:
- -  Foi implementado as entidades e casos de uso utilizando Programação Orientada a Objetos (POO).
+ - Foi implementado as entidades e casos de uso utilizando Programação Orientada a Objetos (POO).
  - Foi implementado as entidades e casos de uso utilizando Programação Orientada a Objetos (POO).
  - Foi  implementada uma classe chamada Entity que servirá de base para as outras entidades da aplicação. As entidades serão criadas a partir do extends da classe Entity, herdando assim suas propriedades e métodos comuns.
+
+-------> Clean Architecture.
+ - Implementado os fundamentos da Clean Architecture, que é um conjunto de princípios e práticas que visam desenvolver sistemas de software de alta qualidade, com baixo acoplamento e alta coesão.
+ - Refatoração na estrutura de pastas do projeto, criando uma pasta de domínio chamada forum e dentro dela as pastas application e enterprise.
+ - Caso de Uso: criado o caso de uso (use case) para a criação de uma Question na aplicação, bem como seu teste unitário. O objetivo é implementar uma funcionalidade que permita a criação de uma nova pergunta no fórum.
+ - Refatoração nos testes unitários para utilizar in-memory-repositories.
