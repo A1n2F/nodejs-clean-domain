@@ -22,5 +22,5 @@ export class InMemoryQuestionCommentsRepository implements QuestionCommentsRepos
             const itemIndex = this.items.findIndex(item => item.id === questionComment.id)
             
             this.items.splice(itemIndex, 1)
-        }
+    }
 }
