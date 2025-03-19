@@ -16,7 +16,6 @@
  ____________________________________________________________________________________________________________________________________________________________________________________________________________________
  - No primeiro Caso de Uso:
  - Foi implementado as entidades e casos de uso utilizando Programação Orientada a Objetos (POO).
- - Foi implementado as entidades e casos de uso utilizando Programação Orientada a Objetos (POO).
  - Foi  implementada uma classe chamada Entity que servirá de base para as outras entidades da aplicação. As entidades serão criadas a partir do extends da classe Entity, herdando assim suas propriedades e métodos comuns.
 
 -------> Clean Architecture.
@@ -24,3 +23,22 @@
  - Refatoração na estrutura de pastas do projeto, criando uma pasta de domínio chamada forum e dentro dela as pastas application e enterprise.
  - Caso de Uso: criado o caso de uso (use case) para a criação de uma Question na aplicação, bem como seu teste unitário. O objetivo é implementar uma funcionalidade que permita a criação de uma nova pergunta no fórum.
  - Refatoração nos testes unitários para utilizar in-memory-repositories.
+
+ ____________________________________________________________________________________________________________________________________________________________________________________________________________________
+ ____________________________________________________________________________________________________________________________________________________________________________________________________________________
+ -------> Adicionado Casos de Uso da Aplicação:
+ - Caso de uso: Deletar pergunta.        
+ - Caso de uso: Deletar resposta.     
+ - Caso de uso: Editar pergunta.        
+ - Caso de uso: Editar resposta.
+ - Caso de uso: Escolher melhor resposta.
+ - Caso de uso: Listar perguntas recentes.
+ - Caso de uso: Listar respostas da pergunta.
+ - Caso de uso: Comentar na pergunta.
+ - Caso de uso: Comentar na resposta.
+ - Caso de uso: Deletar comentário da pergunta.
+ - Caso de uso: Deletar comentário da resposta.           
+ - Caso de uso: Listar comentários da pergunta.
+ - Caso de uso: Listar comentários da resposta.
+
+ 
