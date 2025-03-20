@@ -46,7 +46,7 @@ describe("Edit Question", () => {
         authorId: "author-2",
         title: "Pergunta teste",
         content: "Conteúdo teste",
-    })
+        })
 
         expect(result.isLeft()).toBe(true)
         expect(result.value).toBeInstanceOf(NotAllowedError)
