@@ -40,4 +40,12 @@
   - Caso de uso: Deletar comentário da resposta.           
   - Caso de uso: Listar comentários da pergunta.
   - Caso de uso: Listar comentários da resposta.
+
+ ____________________________________________________________________________________________________________________________________________________________________________________________________________________
+ ____________________________________________________________________________________________________________________________________________________________________________________________________________________
+ -------> Adicionado Functional Error Handling:
+ - Uma abordagem para lidar com erros de forma mais eficiente e segura nas aplicações.
+ - Testada classe de erros e criado testes para validar a implementação da funcionalidade de Functional Error Handling, que permite o tratamento de erros de forma mais elegante e funcional.
+ - Criado dois arquivos para tratamento de erros em Use Cases: ResourceNotFoundError e NotAllowedError. Esses arquivos serão utilizados para lidar com erros de recursos não encontrados e de acesso não permitido, respectivamente. Com eles, será    possível reaproveitar alguns erros comuns, evitando repetições desnecessárias.
+ - Refatorado todos os use-cases para retornarem os erros utilizando as funções e classes criadas e refatoração dos testes unitários para validar os erros e sucessos corretamente.
  
