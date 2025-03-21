@@ -51,7 +51,7 @@
  ____________________________________________________________________________________________________________________________________________________________________________________________________________________
  ____________________________________________________________________________________________________________________________________________________________________________________________________________________
  -------> Adicionado Aggregates e Watched Lists:
- Aggregates e como eles ajudam a organizar e manter a consistência de objetos relacionados e o conceito de Watched Lists, que são listas de objetos que são monitorados conforme ocorrem alterações nos objetos agregados.
+ - Aggregates e como eles ajudam a organizar e manter a consistência de objetos relacionados e o conceito de Watched Lists, que são listas de objetos que são monitorados conforme ocorrem alterações nos objetos agregados.
  - Criado as classes Attachment, QuestionAttachment e AnswerAttachment para lidar com os anexos de perguntas e respostas.
  - Atualização do use-case de criação de uma pergunta para lidar com o novo campo "attachments", que permite adicionar anexos à pergunta.
  - Criação da classe abstrata WatchedList: com as funcionalidades dessa classe, incluindo a capacidade de adicionar, remover e atualizar elementos da lista.
