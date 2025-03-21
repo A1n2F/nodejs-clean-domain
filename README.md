@@ -56,6 +56,22 @@
  - Atualização do use-case de criação de uma pergunta para lidar com o novo campo "attachments", que permite adicionar anexos à pergunta.
  - Criação da classe abstrata WatchedList: com as funcionalidades dessa classe, incluindo a capacidade de adicionar, remover e atualizar elementos da lista.
 
+ ____________________________________________________________________________________________________________________________________________________________________________________________________________________
+ ____________________________________________________________________________________________________________________________________________________________________________________________________________________
+ -------> Subdomínios e Domain Events:
+ 
+   O conceito de subdomínios surge da necessidade de dividir um domínio complexo em partes mais gerenciáveis.
+ - Implementada a entidade Notification , dando, assim, inicio ao desenvolvimento de um novo domínio dentro da aplicação.
+ - Caso de uso: Envio de notificação.
+ - Caso de uso: Ler notificação.
+
+  
+ - Domain Events: o fluxo de Domain Events, que é uma técnica utilizada para lidar com a comunicação e ações entre domínios na arquitetura de software, permitindo uma comunicação assíncrona e desacoplada entre diferentes partes.
+ - Foi implementada a lógica dentro da classe responsável por ouvir o evento de criação de uma nova resposta.
+ - Criado todo o fluxo para quando uma melhor resposta é escolhida para uma pergunta. Isso envolverá a criação da classe de evento, a implementação da lógica para processar o evento.
+
+Tecnologias: JAVASCRIPT. TYPESCRIPT. NODEJS.
+
 
 
 
